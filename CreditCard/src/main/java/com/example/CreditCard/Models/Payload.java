@@ -1,21 +1,11 @@
 package com.example.CreditCard.Models;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+public class Payload {
 
-@JsonIgnoreProperties
-public class Card {
-
-	private Numbers number;
 	private String scheme;
 	private String type;
-	private Bank bank;
+	private String bank;
 	
-	public Numbers getNumber() {
-		return number;
-	}
-	public void setNumber(Numbers number) {
-		this.number = number;
-	}
 	public String getScheme() {
 		return scheme;
 	}
@@ -28,11 +18,12 @@ public class Card {
 	public void setType(String type) {
 		this.type = type;
 	}
-	public Bank getBank() {
+	public String getBank() {
 		return bank;
 	}
-	public void setBank(Bank bank) {
+	public void setBank(String bank) {
 		this.bank = bank;
 	}
+	
 	
 }

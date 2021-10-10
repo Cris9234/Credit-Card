@@ -12,3 +12,11 @@
 
 To run the application, just run the CreditCardApplication.java file, go to the browser and type http://localhost:8080/card-scheme/verify/id 
 ( where id = 6 or 8 digits number)
+
+### step 2:
+1. create calss Stat2 to do the design pattern
+2. add a HashMap to store the data and a StringList to store the "id" (CardController.java)
+3. create the controller with a GET request which requires two parameters
+
+To run the application, just run the CreditCardApplication.java file, go to the browser and type http://localhost:8080/card-scheme/stats?start=a&limit=b 
+( where a and b are two integer and a <= b)

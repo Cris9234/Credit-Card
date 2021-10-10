@@ -11,10 +11,11 @@ public class Stat {
 	public void setSuccess(String success) {
 		this.success = success;
 	}
+	
 	public Payload getPayload() {
 		return payload;
 	}
-	public void setBody(Payload payload) {
+	public void setPayload(Payload payload) {
 		this.payload = payload;
 	}
 	
